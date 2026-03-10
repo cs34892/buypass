@@ -4,7 +4,7 @@ function buypass() {
   new PaymentRequest(
     [
       {
-        supportedMethods: "cs34892.github.io/buypass/payment-manifest.json",
+        supportedMethods: "https://cs34892.github.io/buypass/payment-manifest.json",
         data: {
           url: document.querySelector("input").value
         },
